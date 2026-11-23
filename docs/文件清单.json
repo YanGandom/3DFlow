@@ -8,24 +8,28 @@
     "sha256": "c14d24f3e49c3ee5b157b54086f653896c7e9583ab2f79f9518d6776d4396999"
   },
   "AGENTS.md": {
-    "bytes": 847,
-    "sha256": "507f475335e9b0b62a78ee4f68d180876d9a9b87e67887fbd9b6576774fbf7d9"
+    "bytes": 1030,
+    "sha256": "138db4b9c88e39672961e1e906ee03a96e0ed570012344163109d528ad55f871"
   },
   "README.md": {
-    "bytes": 2302,
-    "sha256": "5b64bdc29aa24291717e4816c2566adfa021f53b39fec689651f8f6220282dd9"
+    "bytes": 2401,
+    "sha256": "5b6e9fb7a93477e8e03d183cf510dc2db064258a2386791500a3d6b27235d14a"
+  },
+  "docs/模型分片说明.md": {
+    "bytes": 361,
+    "sha256": "c87df62368c68782e91a5916231499fe26ea9fafd9e24a4172e465ec93937f84"
   },
   "docs/版本对比.md": {
     "bytes": 1328,
     "sha256": "93dd47c400a0f0cb091278b26e1e91c12c2e1987423567d2dba33f525159714a"
   },
   "docs/部署说明.md": {
-    "bytes": 2529,
-    "sha256": "f1efd1c648d08fe434aceb4e75685b03df259706c584a005fa33e17106d8204e"
+    "bytes": 3532,
+    "sha256": "45625c3c15c1c1b41f81a345812dcb85f310a789d9aa6d15b1776e827b42d2e6"
   },
   "docs/验证记录.md": {
-    "bytes": 792,
-    "sha256": "99a63cfee0090d180e308df3dd7c7384cd79bcc68b8b5eb261f059e1c37c5be9"
+    "bytes": 1114,
+    "sha256": "aa07857cb2bcecf224481ed3166c385446f6357434eaca564fc595e4751b7a71"
   },
   "public/.nojekyll": {
     "bytes": 0,
@@ -49,15 +53,15 @@
   },
   "public/index.html": {
     "bytes": 4954,
-    "sha256": "e10ddbc2fbf43425ad91923dee51707adfb667c5f9e512448f795765cb8e4e21"
+    "sha256": "0762751f087cba4efec136a9b6b1ccadc5715ccfa20f284b2fab937169a1721c"
   },
   "public/manual-v9.js": {
     "bytes": 21751,
     "sha256": "9a7ec8e1cc4db9cb3e3cac0f84907cc4d9d0c24e1f5a3ee46d6d788bce0a4c37"
   },
   "public/model-fbx.js": {
-    "bytes": 14578,
-    "sha256": "3df752e6466f7059927c0ee6b6126d51c32b9a3d7a447cfe80acb41471cfdfea"
+    "bytes": 15163,
+    "sha256": "bc4c2e3830a24a05908d879f7cb951feb252579f088cd7acb81910ea344fdef9"
   },
   "public/model-info.js": {
     "bytes": 2011,
@@ -79,9 +83,33 @@
     "bytes": 632,
     "sha256": "b3ed731d65ce1c05e45077d3bd2ac91f175438e3d6c850f25a54e348710c7c2f"
   },
-  "public/models/bridgerton-003.glb": {
-    "bytes": 45556476,
-    "sha256": "561f1b1db66bdbc3678bb44c40da193acf92c4794a8899a93635f5d5c1a35fb4"
+  "public/models/bridgerton-003.part01.bin": {
+    "bytes": 8388608,
+    "sha256": "6e83441c5d8e951c6f8eb417c68df2d39e7756f2f5e2fe5dad922ba3f80dff9b"
+  },
+  "public/models/bridgerton-003.part02.bin": {
+    "bytes": 8388608,
+    "sha256": "6c4035d71b46bd15c2f7032f3f16c91d1ce39f833312fce0024fe36912913e9c"
+  },
+  "public/models/bridgerton-003.part03.bin": {
+    "bytes": 8388608,
+    "sha256": "63a0cbe6e6be9e8e5c78f42d10bdca599ad0a852d00313a1c5ed05699989f07b"
+  },
+  "public/models/bridgerton-003.part04.bin": {
+    "bytes": 8388608,
+    "sha256": "c351e6bbad4ee44c57d5c53f3548aad4463a060bf341046a1462f05ce1ef9d67"
+  },
+  "public/models/bridgerton-003.part05.bin": {
+    "bytes": 8388608,
+    "sha256": "24b14cfd271e671e2508efe3842733cf1386c0f0860d3f2860f4a055438a52f9"
+  },
+  "public/models/bridgerton-003.part06.bin": {
+    "bytes": 3613436,
+    "sha256": "25920a55d09c27566f1ae3fcd4a837957d46646f759a4252717acebec36c07a4"
+  },
+  "public/models/model-manifest.json": {
+    "bytes": 623,
+    "sha256": "e16c0aea839a3bcda766c2b27ca8fb2080d71d64b9b7ff5e944dc8c1c02fb657"
   },
   "public/assets/design/dress-back.webp": {
     "bytes": 1502038,

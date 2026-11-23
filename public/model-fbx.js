@@ -53,11 +53,17 @@ function selectClip(value){if(!loaded)return;mixer.stopAllAction();root.traverse
  state.playing=playing;
 }
 async function load(){try{if(location.protocol==='file:')throw new Error('请通过本地服务器或网站地址打开此发布版');
- const response=await fetch(new URL('models/bridgerton-003.glb',document.baseURI));
- if(!response.ok)throw new Error('模型请求失败 HTTP '+response.status);
- const total=Number(response.headers.get('content-length'))||0;let bytes;
- if(response.body){const reader=response.body.getReader(),chunks=[];let received=0;while(true){const {done,value}=await reader.read();if(done)break;chunks.push(value);received+=value.length;overlay.textContent=total?'模型加载 '+Math.min(100,Math.round(received/total*100))+'%':'模型加载 '+(received/1048576).toFixed(1)+' MB';}bytes=new Uint8Array(received);let offset=0;for(const chunk of chunks){bytes.set(chunk,offset);offset+=chunk.length;}}
- else bytes=new Uint8Array(await response.arrayBuffer());
+ const manifestURL=new URL('models/model-manifest.json',document.baseURI);
+ const manifestResponse=await fetch(manifestURL);if(!manifestResponse.ok)throw new Error('模型清单请求失败 HTTP '+manifestResponse.status);
+ const manifest=await manifestResponse.json();if(!Number.isSafeInteger(manifest.bytes)||manifest.bytes<=0||!Array.isArray(manifest.parts)||!manifest.parts.length)throw new Error('模型清单无效');
+ const bytes=new Uint8Array(manifest.bytes);let offset=0;
+ for(const part of manifest.parts){
+  const response=await fetch(new URL(part.file,manifestURL));if(!response.ok)throw new Error('模型分片 '+part.file+' 加载失败 HTTP '+response.status);
+  const chunk=new Uint8Array(await response.arrayBuffer());if(chunk.length!==part.bytes||offset+chunk.length>bytes.length)throw new Error('模型分片大小不一致：'+part.file);
+  bytes.set(chunk,offset);offset+=chunk.length;overlay.textContent='模型加载 '+Math.round(offset/bytes.length*100)+'%';
+ }
+ if(offset!==bytes.length)throw new Error('模型分片不完整');
+ if(globalThis.crypto?.subtle){const digest=await crypto.subtle.digest('SHA-256',bytes);const hash=[...new Uint8Array(digest)].map(n=>n.toString(16).padStart(2,'0')).join('');if(hash!==manifest.sha256)throw new Error('模型校验失败，请重新上传完整分片');}
  overlay.textContent='正在准备模型与贴图…';window.CHARACTER_GLB_BYTES=bytes;
 
  const result=await new Promise((resolve,reject)=>new T.GLTFLoader().parse(bytes.buffer,'',resolve,reject));root=result.scene;clips=result.animations;content.add(root);root.updateMatrixWorld(true);

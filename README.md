@@ -2,7 +2,7 @@
 
 根据完整角色设计与真实模型整理的中文制作手册，覆盖设计、雕刻、拓扑、UV/烘焙、材质、绑定动画和 Unity 交付。
 
-当前版本 **v18 Web**，以用户周末优化的 v17 完整项目为基础。保留阶段总览图、可选 MD 制作说明和此前模型修复，修正 MD 配图位置。包含 21 章原文、7 阶段实操、自检清单与可交互角色展示。
+当前版本 **v19 Web**，以用户周末优化的 v17 完整项目为基础。保留阶段总览图、可选 MD 制作说明和此前模型修复，修正 MD 配图位置。包含 21 章原文、7 阶段实操、自检清单与可交互角色展示。
 
 ## 本地预览
 
@@ -19,7 +19,7 @@ python scripts/preview.py
 详细步骤见 [部署说明](docs/部署说明.md)。无 npm 依赖、无构建步骤，网站目录为 `public/`。
 GitHub Pages 工作流已配置；仓库 Settings → Pages → Source 选择 **GitHub Actions**，推送 main 分支后执行部署。
 
-模型约 45.6 MB，超过 GitHub 浏览器单文件上传限制，请用 GitHub Desktop 或 Git 命令推送整个项目；没有使用 Git LFS。
+模型已无损拆成 6 个分片，每个最大 8 MiB，所有仓库文件均小于 25 MB。可用 GitHub 网页上传解压后的项目内容，也支持 GitHub Desktop / Git；没有使用 Git LFS。
 只部署 public/，不会把原始 FBX、Blender 工程、旧电脑路径或交接资料作为网页资源发布。
 
 ## 开发位置
@@ -27,7 +27,7 @@ GitHub Pages 工作流已配置；仓库 Settings → Pages → Source 选择 **
 - public/index.html、style.css：页面与样式。
 - public/app.js、navigation-v8.js、manual-v9.js：手册与交互。文件名版本是历史名称，不影响当前 v18。
 - public/model-fbx.js、model-info.js：查看器与模型元数据。
-- public/models/bridgerton-003.glb：最终修正版模型。
+- public/models/model-manifest.json 与 .bin 分片：最终修正版模型，浏览器按顺序合并。
 - public/assets：设计图、技术图板和本地 Three.js。
 - docs/版本对比.md：周末改动与发布整理结果。
 

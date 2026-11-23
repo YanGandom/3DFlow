@@ -1,0 +1,30 @@
+{
+  "bytes": 45556476,
+  "sha256": "561f1b1db66bdbc3678bb44c40da193acf92c4794a8899a93635f5d5c1a35fb4",
+  "parts": [
+    {
+      "file": "bridgerton-003.part01.bin",
+      "bytes": 8388608
+    },
+    {
+      "file": "bridgerton-003.part02.bin",
+      "bytes": 8388608
+    },
+    {
+      "file": "bridgerton-003.part03.bin",
+      "bytes": 8388608
+    },
+    {
+      "file": "bridgerton-003.part04.bin",
+      "bytes": 8388608
+    },
+    {
+      "file": "bridgerton-003.part05.bin",
+      "bytes": 8388608
+    },
+    {
+      "file": "bridgerton-003.part06.bin",
+      "bytes": 3613436
+    }
+  ]
+}

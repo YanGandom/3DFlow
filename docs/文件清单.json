@@ -1,0 +1,226 @@
+{
+  ".gitattributes": {
+    "bytes": 56,
+    "sha256": "96cbd1d3517a86f7eb1ed3926746659a37af3e9c7405e61388110e162337e96c"
+  },
+  ".gitignore": {
+    "bytes": 271,
+    "sha256": "c14d24f3e49c3ee5b157b54086f653896c7e9583ab2f79f9518d6776d4396999"
+  },
+  "AGENTS.md": {
+    "bytes": 847,
+    "sha256": "507f475335e9b0b62a78ee4f68d180876d9a9b87e67887fbd9b6576774fbf7d9"
+  },
+  "README.md": {
+    "bytes": 2302,
+    "sha256": "5b64bdc29aa24291717e4816c2566adfa021f53b39fec689651f8f6220282dd9"
+  },
+  "docs/版本对比.md": {
+    "bytes": 1328,
+    "sha256": "93dd47c400a0f0cb091278b26e1e91c12c2e1987423567d2dba33f525159714a"
+  },
+  "docs/部署说明.md": {
+    "bytes": 2529,
+    "sha256": "f1efd1c648d08fe434aceb4e75685b03df259706c584a005fa33e17106d8204e"
+  },
+  "docs/验证记录.md": {
+    "bytes": 792,
+    "sha256": "99a63cfee0090d180e308df3dd7c7384cd79bcc68b8b5eb261f059e1c37c5be9"
+  },
+  "public/.nojekyll": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "public/app.js": {
+    "bytes": 12179,
+    "sha256": "8cef9906f4aeeb834a2f0f6aec5f0620621108e9c6e130cf9e62cf9c05f7bb85"
+  },
+  "public/content.js": {
+    "bytes": 56189,
+    "sha256": "b8473bb444758e48151faeddf89e7902a87bbc04dd364b603039878a0b84b631"
+  },
+  "public/data.js": {
+    "bytes": 17780,
+    "sha256": "ae83ace165e166d7695d76b6642776558e4c2e9d133937e7993662a320a0a41b"
+  },
+  "public/design-reference.js": {
+    "bytes": 12372,
+    "sha256": "e23126bbd140f891155aa2f22350df4e1c0f4724fb3ab04057d711bfd4dc26e3"
+  },
+  "public/index.html": {
+    "bytes": 4954,
+    "sha256": "e10ddbc2fbf43425ad91923dee51707adfb667c5f9e512448f795765cb8e4e21"
+  },
+  "public/manual-v9.js": {
+    "bytes": 21751,
+    "sha256": "9a7ec8e1cc4db9cb3e3cac0f84907cc4d9d0c24e1f5a3ee46d6d788bce0a4c37"
+  },
+  "public/model-fbx.js": {
+    "bytes": 14578,
+    "sha256": "3df752e6466f7059927c0ee6b6126d51c32b9a3d7a447cfe80acb41471cfdfea"
+  },
+  "public/model-info.js": {
+    "bytes": 2011,
+    "sha256": "8ee76a519ff4234d4a284015a10a6a13bbadc71f7117592af4466f3bd23f4277"
+  },
+  "public/navigation-v8.js": {
+    "bytes": 3208,
+    "sha256": "9eaa250252679754f032e17cc554a1f81a1f2159b174cbc150dd4ce4007d254a"
+  },
+  "public/style.css": {
+    "bytes": 34237,
+    "sha256": "07141d8030f0960f28a49e25362d02546d3b887d37e7eabae5bd4b06f21eee01"
+  },
+  "scripts/preview.py": {
+    "bytes": 420,
+    "sha256": "45f6a00de67f0de303ed48ae64cc8a410123d7cddc3e392ecca5855e36fb10b9"
+  },
+  ".github/workflows/pages.yml": {
+    "bytes": 632,
+    "sha256": "b3ed731d65ce1c05e45077d3bd2ac91f175438e3d6c850f25a54e348710c7c2f"
+  },
+  "public/models/bridgerton-003.glb": {
+    "bytes": 45556476,
+    "sha256": "561f1b1db66bdbc3678bb44c40da193acf92c4794a8899a93635f5d5c1a35fb4"
+  },
+  "public/assets/design/dress-back.webp": {
+    "bytes": 1502038,
+    "sha256": "778f6590072fc9deb49ff307846f57a368ce4de5caad319d272e547e8454c386"
+  },
+  "public/assets/design/dress-front.webp": {
+    "bytes": 1435402,
+    "sha256": "3d1e79e0465c85837ba0fdfb0984dbd2e4ef59864d935c4d61000ca2d86b4ea9"
+  },
+  "public/assets/design/dress-left.webp": {
+    "bytes": 1324692,
+    "sha256": "8ff64211d4bcc009c6d84706852410975eeffcdde1c80aba5d4b7eb2329ad065"
+  },
+  "public/assets/design/dress-right.webp": {
+    "bytes": 1326068,
+    "sha256": "a30ce4b46532a977182a6f3e6f3083ee1eb02864f94da33faef74045c7b34599"
+  },
+  "public/assets/design/full.webp": {
+    "bytes": 1523576,
+    "sha256": "95279b7844e214bc69c4991c784661edbd6dc4daf2e63f247f38b82e629c7e8e"
+  },
+  "public/assets/design/hair-back.webp": {
+    "bytes": 1367834,
+    "sha256": "f5a426b769394994ca7865d5dae69015abd5ce62d1d29e510cba20123676a22d"
+  },
+  "public/assets/design/hair-front.webp": {
+    "bytes": 1354434,
+    "sha256": "378416e82264f652dc893d274a268b480038054cd8776be6b2c05ecf654c4565"
+  },
+  "public/assets/design/hair-side.webp": {
+    "bytes": 1289820,
+    "sha256": "d9ab12e55883d8a0ce570d5618e3b4e06556b1ef0c8b458a886a015b92f86528"
+  },
+  "public/assets/design/ornament-back.webp": {
+    "bytes": 277198,
+    "sha256": "92a3073b9bb569d9db0a7d70470358d35474e224cba1a526df45363e86699853"
+  },
+  "public/assets/design/ornament-front.webp": {
+    "bytes": 301556,
+    "sha256": "729f3bb7f2294cb003d478873f81799a6fe4c0442ae7a505d9cf01cc76b0df5f"
+  },
+  "public/assets/design/ornament-left-file.webp": {
+    "bytes": 255712,
+    "sha256": "e8f49c7af65fc516095f64397109060acf60056d831edba41dfe21f24a23d444"
+  },
+  "public/assets/design/ornament-right-file.webp": {
+    "bytes": 270148,
+    "sha256": "07caa011a7dc84a0613be414ecab8b8f9014cee81651df566999093e70609dc6"
+  },
+  "public/assets/real/back.webp": {
+    "bytes": 366150,
+    "sha256": "0fda055d2171bcfeccbb4d82a1d5765042f17b834f68b60a1f7b3a191e98faa0"
+  },
+  "public/assets/real/bake.webp": {
+    "bytes": 572818,
+    "sha256": "cc2d194f313109dc1c968c7e03c9d9326674c9b406d6777233921215382ac3e6"
+  },
+  "public/assets/real/clay.webp": {
+    "bytes": 266532,
+    "sha256": "aa645aa981ce6c3504ec4145f29eb2955268de922e2db040e3f221084cf53308"
+  },
+  "public/assets/real/design.webp": {
+    "bytes": 621676,
+    "sha256": "8374526ffd7ee380f2af2267ea32a8f7f1646526a42daaf4f07250d6cd4e56d9"
+  },
+  "public/assets/real/front.webp": {
+    "bytes": 373738,
+    "sha256": "f8f8d3bd9efa5696287015e7d8ce7354ccfb709693adc23044b160a830179018"
+  },
+  "public/assets/real/hair-detail.webp": {
+    "bytes": 874334,
+    "sha256": "d72f3db22f2783f995e171df2de1733a1c0e39f983bf3188fb8847d9d2b056d6"
+  },
+  "public/assets/real/head.webp": {
+    "bytes": 440492,
+    "sha256": "730ee562b8c7b3be3cd76099b7f47ae451fd3ecc80469bb6e3677637f35c889f"
+  },
+  "public/assets/real/materials.webp": {
+    "bytes": 685090,
+    "sha256": "ea4aa60e7eef3587abf7b1dcaf85f59def2499a2db02dada87b44ff291abdfa9"
+  },
+  "public/assets/real/md-cloth-simulation.webp": {
+    "bytes": 1851274,
+    "sha256": "149cf53b51494ca9671bbfd21a2492e7f6aee4025516085b29d91c61d0750603"
+  },
+  "public/assets/real/modular-detail.webp": {
+    "bytes": 650298,
+    "sha256": "b6442360f3e9ec9450da7eba39e2f2f65567ff440b42d9369756f2518b34bd9a"
+  },
+  "public/assets/real/pipeline-detail.webp": {
+    "bytes": 536192,
+    "sha256": "2adedbb4acbb9c91a142283b252e1ee0f8a49eb3402fabf5e61b013e314689a9"
+  },
+  "public/assets/real/rig.webp": {
+    "bytes": 656342,
+    "sha256": "933dc26f7db9dc868b1261d4ba0602187507a4542c8cb42bf398680cedd4b456"
+  },
+  "public/assets/real/sculpt.webp": {
+    "bytes": 598192,
+    "sha256": "2648f2bd6985b94ce58d7016e41ce34d6c7f0995a282f333fbb51af2650cf95c"
+  },
+  "public/assets/real/seam-detail.webp": {
+    "bytes": 822852,
+    "sha256": "f2cd55267eaefecd22f08cafb887a606345aa8704c6dee2bab5d83291a9a24cb"
+  },
+  "public/assets/real/side.webp": {
+    "bytes": 318974,
+    "sha256": "51006ed0c7721c4651b12012a62bf58828be75d7660e6b681ec05296ed61238f"
+  },
+  "public/assets/real/skeleton.webp": {
+    "bytes": 258290,
+    "sha256": "cc44d4571eaa8069cce1f611a704b299b6d393698e05bf29718bc491704e7b1a"
+  },
+  "public/assets/real/tools-detail.webp": {
+    "bytes": 548982,
+    "sha256": "c0103c735381fdd488c7c29925317562bd53380d4e6ab104197a4275905fc47c"
+  },
+  "public/assets/real/topology-board.webp": {
+    "bytes": 461440,
+    "sha256": "70f0ca90b8851a3898c01f6e95519d1193d7ac522839b15397eceffa8d4b0a90"
+  },
+  "public/assets/real/topology.webp": {
+    "bytes": 403400,
+    "sha256": "247761fe78b39e7bdda3de241486cadc0c2c5f9aa1645f96ef218c5cad18b8f6"
+  },
+  "public/assets/real/unity.webp": {
+    "bytes": 434370,
+    "sha256": "344e15dcaf2bb79803390f14031a20bab0a7b86ce4f4c6c0bd647088967b6567"
+  },
+  "public/assets/real/uv-layout.webp": {
+    "bytes": 71628,
+    "sha256": "5bdc8b8527ae8630ff425155de90e4371a10fc58d2358adbb027a5fd21f67423"
+  },
+  "public/assets/vendor/THREE-LICENSE.txt": {
+    "bytes": 1102,
+    "sha256": "f57eb9202058667d12aebd854fe8a86d6feaeab51078180df5615bfdbd5cff05"
+  },
+  "public/assets/vendor/three-viewer.bundle.js": {
+    "bytes": 1550619,
+    "sha256": "fb5c5ee7548e4e8991d95888f9d28826e7484425e47b137174346ab9fdc26107"
+  }
+}

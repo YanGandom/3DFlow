@@ -1,0 +1,20 @@
+# Local/editor files
+.DS_Store
+._*
+__MACOSX/
+Thumbs.db
+.idea/
+.vscode/
+__pycache__/
+node_modules/
+*.log
+*.zip
+.env
+.env.*
+# DCC source belongs in the full project backup, not the website repo
+*.blend
+*.blend1
+*.fbx
+model-data.js
+source/
+test-results/
